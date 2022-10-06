@@ -1,0 +1,11 @@
+.header-nav {
+  border-bottom: none !important;
+}
+
+#header {
+  box-shadow: none;
+}
+
+#wrapper {
+  background-color: white;
+}

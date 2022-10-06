@@ -1,0 +1,6 @@
+parent: classic
+name: he-clo_template
+display_name: template de he-clo
+version: 0.0.0
+assets:
+  use_parent_assets: true

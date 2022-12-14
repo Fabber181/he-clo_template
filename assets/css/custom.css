@@ -9,3 +9,12 @@
 #wrapper {
   background-color: white;
 }
+
+/*        Header       */
+.header-top_login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}

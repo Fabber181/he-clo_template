@@ -29,8 +29,8 @@
 {/block}
 
 {block name='header_nav'}
-  <nav class="header-nav">
-    <div class="container">
+  <nav class="header-nav hidden-md-up text-sm-center mobile">
+    <div class="container ">
       <div class="row">
           <div class="col-md-7 right-nav">
               {hook h='displayNav2'}
@@ -65,9 +65,12 @@
             {/if}
           {/if}
         </div>
-        <div class="header-top-right col-md-10 col-sm-12 position-static">
+        <div class="header-top-right col-md-7 col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
+        <div class="col-md-3 right-nav hidden-sm-down header-top_login">
+              {hook h='displayNav2'}
+          </div>
       </div>
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
         <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
